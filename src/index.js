@@ -70,7 +70,7 @@ class Game extends React.Component {
         this.state = {
             history: [{
                 squares: Array(9).fill(null),
-            }];
+            }],
             xIsNext: true,
         };
     }
